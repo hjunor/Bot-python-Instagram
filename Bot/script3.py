@@ -1,0 +1,1 @@
+"""Curtir fotos por localização"""
