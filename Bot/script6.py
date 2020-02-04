@@ -1,7 +1,7 @@
 from instapy import InstaPy
 from instapy import smart_run
 
-session = InstaPy(username='up4.0' , password='3n5df3k9')
+session = InstaPy(username='' , password='')
 
 with  smart_run(session):
     session.set_do_follow(enabled=True, percentage=100) 
