@@ -3,7 +3,7 @@
 from instapy import InstaPy
 from instapy import smart_run
 
-session = InstaPy(username='up4.0' , password='3n5df3k9')
+session = InstaPy(username='' , password='')
 
 with  smart_run(session):
     session.follow_user_followers(['jhonattan_anttunes'], amount=3, randomize=False)
